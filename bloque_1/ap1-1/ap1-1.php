@@ -1,6 +1,5 @@
 <?php
 $array = [];
-$num=1;
 
 foreach ($_GET as $clave => $valor) {
         $array[$clave] = $valor;
@@ -17,7 +16,6 @@ $array=[
 
 foreach ($array as $clave => $valor) {
     echo "Se ha recibido $valor para la $clave.<br>";
-    $num++;
 }
 
-echo "Hello World!";
+//echo "Hello World!";
